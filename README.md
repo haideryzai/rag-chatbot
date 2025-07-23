@@ -1,6 +1,6 @@
 # RAG Chatbot Project
 
-A full-stack chatbot using Retrieval-Augmented Generation (RAG) to answer questions based on user-uploaded documents, using free, open-source models.
+A using Retrieval-Augmented Generation (RAG) to answer questions based on user-uploaded documents, using free, open-source models.
 
 ## Features
 - **Backend**: FastAPI with LangChain, SentenceTransformers, FAISS, and Hugging Face's `facebook/bart-large` model.
