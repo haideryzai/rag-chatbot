@@ -17,16 +17,12 @@ A using Retrieval-Augmented Generation (RAG) to answer questions based on user-u
 
 ## Backend Setup Instructions
 
-1. Navigate to the `backend` directory:
-   ```bash
-   cd backend
-   ```
-2. Create a virtual environment and activate it:
+1. Create a virtual environment and activate it:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
@@ -34,11 +30,11 @@ A using Retrieval-Augmented Generation (RAG) to answer questions based on user-u
      ```bash
      pip install torch --index-url https://download.pytorch.org/whl/cu118
      ```
-4. (Optional) Copy `.env.example` to `.env` if you need environment-specific configurations:
+3. (Optional) Copy `.env.example` to `.env` if you need environment-specific configurations:
    ```bash
    cp .env.example .env
    ```
-5. Run the FastAPI server:
+4. Run the FastAPI server:
    ```bash
    uvicorn main:app --host 0.0.0.0 --port 8000
    ```
